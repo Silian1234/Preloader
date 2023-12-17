@@ -4,7 +4,7 @@
 <p>Due to the peculiarities of FoundryVTT, long tracks cannot be preloaded, but preloading will be especially useful for sounds that require strict timings, such as the sound of dice rolling, the sound of a weapon attack, and so on.</p>
 <h2><strong>Usage</strong></h2>
 <p>You can find the Preloader settings menu in the game settings.</p>
-![Foundry_Virtual_Tabletop_ONgrhnBZIP](https://github.com/JabaNazgob/Preloader/assets/8327536/625c1a29-3b8a-47d5-982c-cd8ea322a177)
+![a](https://github.com/JabaNazgob/Preloader/assets/8327536/625c1a29-3b8a-47d5-982c-cd8ea322a177)
 <p>Clicking one of the buttons will open the corresponding preload window. </p>
 ![Foundry_Virtual_Tabletop_wJG3B1UKVG](https://github.com/JabaNazgob/Preloader/assets/8327536/38b9ab6b-6b70-4b5d-903b-d31c093c66c7)
 <p>Here you can add and remove scenes, audio files, or animations that players will preload when entering the world.</p>
