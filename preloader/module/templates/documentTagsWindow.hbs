@@ -1,0 +1,46 @@
+<form class="pl-item-tags" style="margin: -2px">
+    <h4 style="font-family: 'Fira Sans Extra Condensed';font-weight: 500;">{{guideText}}{{#if tooltipText}}<br>{{tooltipText}}{{/if}}</h4>
+    <div class="tag-container">
+        {{#if documentTags}}
+            {{#each documentTags}}
+            <div class="tag">
+                <span class="text">
+                    {{this}}
+                </span>
+                <a class="icon">
+                    <i class="fas fa-times" id="{{@index}}"></i>
+                </a>
+            </div>
+            {{/each}}
+        {{/if}}
+        {{#if newTags}}
+            {{#each newTags}}
+            <div class="tag new-tag">
+                <span class="text">
+                    {{this}}
+                </span>
+                <a class="icon">
+                    <i class="fas fa-times" id="{{@index}}"></i>
+                </a>
+            </div>
+            {{/each}}
+        {{/if}}
+        <input id="preloader-input" data-id="{{category}}" class="tag-input" autofocus placeholder="{{localize "preloader.window.placeholder"}}"/>
+    </div>
+    <span class="confirmation">
+        <button type="button" class="cancel">
+            <i class="fas fa-times"></i>{{localize "preloader.window.confirmation.cancel"}}
+        </button>
+        <button type="button" class="save {{#if newTags}}new-tag{{/if}}">
+            <i class="fas fa-check"></i>{{localize "preloader.window.confirmation.save"}}
+        </button>
+    </span>
+    <span class="importer">
+        <button type="button" class="import">
+            <i class="fas fa-file-export"></i>{{localize "preloader.window.importer.import-button"}}
+        </button>
+        <button type="button" class="export">
+            <i class="fas fa-file-import"></i>{{localize "preloader.window.importer.export-button"}}
+        </button>
+    </span>
+</form>

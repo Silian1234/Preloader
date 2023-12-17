@@ -1,0 +1,69 @@
+$red-color: rgb(253, 92, 92)
+$green-color: rgb(124 217 124)
+$light-green-color: rgb(213 235 181)
+
+// pl - Preloader
+.pl-item-tags
+    h4 
+        font-family: 'Fira Sans Extra Condensed'
+        font-weight: 500
+        border: rgba(0, 0, 0, 0.2) solid 1px
+        border-radius: 5px
+        padding: 5px
+        border-bottom: none
+        border-bottom-left-radius: 0
+        border-bottom-right-radius: 0
+        margin: 0
+    .tag-container
+        display: flex
+        padding: 4px
+        background-color: #FFFFFF33
+        border: #00000033 solid 1px
+        border-radius: 1pt
+        flex-wrap: wrap
+        align-content: flex-start
+        overflow-x: scroll
+
+        .tag
+            margin: 1px
+            border: #585858 solid 1px
+            padding: 4px
+            background-color: $green-color
+            border-radius: 5pt 1pt 1pt 5pt
+            align-items: center
+            display: inline
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 1px 1px #fff
+            .text
+                display: inline-block
+                top: -5px
+                margin: 0 5px 0 5px
+
+            .icon
+                margin: 0px 4px 0 4px
+
+
+        .tag-input
+            background-color: transparent
+            border: none
+            width: 120px
+            flex-grow: 1
+
+    .confirmation, .importer
+        display: flex
+        border: rgba(0, 0, 0, 0.2) solid 1px
+        margin-top: 0
+        padding: 2px
+        padding-top: 7px
+        border-radius: 5px
+        border-top: none
+        border-top-left-radius: 0
+        border-top-right-radius: 0
+
+        .cancel
+            background-color: $red-color
+
+        .save
+            background-color: $green-color
+    
+    .new-tag
+        background-color: $light-green-color !important
