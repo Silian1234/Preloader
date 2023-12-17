@@ -5,6 +5,8 @@
 <h2><strong>Usage</strong></h2>
 <p>You can find the Preloader settings menu in the game settings.</p>
 ![Foundry_Virtual_Tabletop_ONgrhnBZIP](https://github.com/JabaNazgob/Preloader/assets/8327536/9be62c7d-7539-48c2-ba90-81ba205d8929)
+![Foundry_Virtual_Tabletop_ONgrhnBZIP](https://github.com/JabaNazgob/Preloader/assets/82874968/d687bf76-5238-4b37-8921-2cd3c3100d72)
+
 
 <p>Clicking one of the buttons will open the corresponding preload window. </p>
 ![Foundry_Virtual_Tabletop_wJG3B1UKVG](https://github.com/JabaNazgob/Preloader/assets/8327536/38b9ab6b-6b70-4b5d-903b-d31c093c66c7)
