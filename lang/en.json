@@ -1,0 +1,85 @@
+{
+    "preloader": {
+        "settings": {
+            "scenes": {
+                "settingName": "scenesToPreload",
+                "name": "Scene",
+                "label": "Scene",
+                "hint": "List of scenes to be preloaded by players when they enter the world"
+            },
+            "audio": {
+                "settingName": "audioToPreload",
+                "name": "Audio",
+                "label": "Audio",
+                "hint": "List of audio files to be preloaded by players when they enter the world"
+            },
+            "animations": {
+                "settingName": "animationsToPreload",
+                "name": "Animations",
+                "label": "Animations",
+                "hint": "List of animations to be preloaded by players when they enter the world"
+            }
+        },
+        "window": {
+            "title": "Preloader",
+            "placeholder": "Add (press Enter)",
+            "deletionTitle": {
+                "scenes": "Remove scene from preload list?",
+                "audio": "Remove audio from preload list?",
+                "animations": "Remove animation from preload list?"
+            },
+            "deletionDescription": {
+                "scenes": "Are you sure you want to remove this scene from the preload list?",
+                "audio": "Are you sure you want to remove this track from the preload list?",
+                "animations": "Are you sure you want to remove this animation from the preload list?"
+            },
+            "confirmation": {
+                "cancel": "Cancel",
+                "save": "Save"
+            },
+            "importer": {
+                "import-button": "Import to JSON",
+                "export-button": "Export from JSON"
+            },
+            "guideText": {
+                "scenes": "Drag the scene to the input field, or write its id, then press \"Enter\"",
+                "audio": "Write the full path to the audio file (including the file name and its extension), then press \"Enter\"",
+                "audio-tooltip": "IMPORTANT! Only small files of a few megabytes can be preloaded. Use audio preload for preloading short sounds requiring strict timing, such as the sound of dice sound, or weapon attack sounds",
+                "animations": "Write the full path to the file (including the file name and its extension), or, if it is a Sequencer animation, insert its \"DatabasePath\" (can be obtained in Sequencer Database Viewer), then press \"Enter\""
+            }
+        },
+        "warning": {
+            "duplicate": {
+                "scenes": "This scene is already in the list",
+                "audio": "This track is already in the list",
+                "animations": "This animation is already in the list"
+            },
+            "wrongId": "You should drag SCENE into the input field",
+            "seqNotActive": "Sequencer module not found",
+            "wrongCategory": "The content of the imported JSON file does not match the category"
+        },
+        "error": {
+            "scenes": {
+                "uiError": "An error occurred while preloading one or more scenes (details in console)",
+                "consoleText1": "There is one or more ids of non-existent scenes in the list of scenes for preload. The other scenes were successfully preloaded.",
+                "consoleText2": "You can view the entire list in console using the command \"PreloaderApp.getScenesToPreload()\"",
+                "consoleText3": "Also, you can delete the ids of non-existent scenes using the command \"PreloaderApp.deleteScenesToPreload()\", by entering a string or array as an argument",
+                "consoleText4-1": "- Scene with id  <",
+                "consoleText4-2": ">  not found"
+            },
+            "audio": {
+                "uiError": "An error occurred while preloading one or more audio files (details in console)",
+                "consoleText1": "There is one or more paths of non-existent audio files in the list of audio files for preload. The other audio files were successfully preloaded.",
+                "consoleText2": "You can view the entire list in console using the command \"PreloaderApp.getAudioToPreload()\"",
+                "consoleText3": "Also, you can delete the paths of non-existent audio files using the command \"PreloaderApp.deleteAudioToPreload()\", by entering a string or array as an argument",
+                "consoleText4-1": "- Audio file  <",
+                "consoleText4-2": ">  not found"
+            },
+            "sequencer": {
+                "uiError": "An error occurred while preloading one or more animations/files (details in console)",
+                "consoleText1": "In the array of animations for preload, there is one or more names/paths of files, containing an error.",
+                "consoleText2": "You can view the entire array in console using the command \"PreloaderApp.deleteAnimationsToPreload()\", by entering a string or array as an argument"
+            }
+        }
+    }
+}

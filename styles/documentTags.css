@@ -1,0 +1,65 @@
+.pl-item-tags h4 {
+  font-family: "Fira Sans Extra Condensed";
+  font-weight: 500;
+  border: rgba(0, 0, 0, 0.2) solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin: 0;
+}
+.pl-item-tags .tag-container {
+  display: flex;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: rgba(0, 0, 0, 0.2) solid 1px;
+  border-radius: 1pt;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow-x: scroll;
+}
+.pl-item-tags .tag-container .tag {
+  margin: 1px;
+  border: #585858 solid 1px;
+  padding: 4px;
+  background-color: rgb(124, 217, 124);
+  border-radius: 5pt 1pt 1pt 5pt;
+  align-items: center;
+  display: inline;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 1px 1px #fff;
+}
+.pl-item-tags .tag-container .tag .text {
+  display: inline-block;
+  top: -5px;
+  margin: 0 5px 0 5px;
+}
+.pl-item-tags .tag-container .tag .icon {
+  margin: 0px 4px 0 4px;
+}
+.pl-item-tags .tag-container .tag-input {
+  background-color: transparent;
+  border: none;
+  width: 120px;
+  flex-grow: 1;
+}
+.pl-item-tags .confirmation, .pl-item-tags .importer {
+  display: flex;
+  border: rgba(0, 0, 0, 0.2) solid 1px;
+  margin-top: 0;
+  padding: 2px;
+  padding-top: 7px;
+  border-radius: 5px;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.pl-item-tags .confirmation .cancel, .pl-item-tags .importer .cancel {
+  background-color: rgb(253, 92, 92);
+}
+.pl-item-tags .confirmation .save, .pl-item-tags .importer .save {
+  background-color: rgb(124, 217, 124);
+}
+.pl-item-tags .new-tag {
+  background-color: rgb(213, 235, 181) !important;
+}/*# sourceMappingURL=documentTags.css.map */
